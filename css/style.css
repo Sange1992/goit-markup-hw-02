@@ -4,7 +4,39 @@
   --first-fonts-color: #757575;
   --second-fonts-color: #212121;
   --third-fonts-color: #ffffff;
-  --acsent-color: #2196f3;
+  --accent-color: #2196f3;
+}
+body {
+  font-family: roboto, sans-serif;
+  color: var(--first-fonts-color);
+}
+.list {
+  list-style: none;
+}
+
+.link {
+  outline: none;
+  text-decoration: none;
 }
 
 /*-------------- HEADER------------ */
+.header-logo {
+  color: var(--accent-color);
+}
+.logo-link {
+  color: #000000;
+}
+.header-link {
+  color: var(--second-fonts-color);
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+.contacts-link {
+  color: var(--first-fonts-color);
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-color);
+}
