@@ -25,9 +25,16 @@ body {
 }
 .logo-link {
   color: #000000;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 .header-link {
   color: var(--second-fonts-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 .header-link:hover,
 .header-link:focus {
@@ -35,8 +42,29 @@ body {
 }
 .contacts-link {
   color: var(--first-fonts-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--accent-color);
+}
+
+/*-------------- HERO------------ */
+.hero-contend {
+  background-color: var(--second-bg-color);
+}
+.hero-title {
+  color: var(--third-fonts-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
+.hero-btn {
+  color: var(--third-fonts-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
 }
