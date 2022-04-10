@@ -91,7 +91,7 @@ body {
 .features-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
@@ -139,7 +139,7 @@ body {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--third-fonts-color);
 }
@@ -147,12 +147,16 @@ body {
   color: var(--accent-color);
 }
 .footer-map {
+  font-family: "Roboto";
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--third-fonts-color);
 }
 .footer-contact {
+  font-family: "Roboto";
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -161,7 +165,7 @@ body {
 
 /*-------------- PORFOLIO------------ */
 .portfolio-btn {
-  font-family: "Roboto";
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
